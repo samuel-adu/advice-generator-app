@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import divider from "./images/pattern-divider-mobile.svg";
 import dice from "./images/icon-dice.svg";
 
