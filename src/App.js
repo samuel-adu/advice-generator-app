@@ -3,7 +3,9 @@ import divider from "./images/pattern-divider-mobile.svg";
 import dice from "./images/icon-dice.svg";
 
 function App() {
-  const [adviceSlip, setAdviceSlip] = useState({});
+  const [adviceSlip, setAdviceSlip] = useState({
+    advice: "Click the dice icon.",
+  });
 
   // useEffect(() => {
   //   fetch("https://api.adviceslip.com/advice")
